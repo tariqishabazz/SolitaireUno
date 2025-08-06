@@ -8,8 +8,7 @@ from enum import Enum  # Import the Enum class to create enumerated types
 class Suits(Enum):
     """
     Defines the four standard suits for playing cards.
-    Each suit is assigned an integer value (though the value itself isn't used for game logic,
-    it's good practice for uniqueness and potential serialization).
+    Each suit is assigned an integer value (though the value itself isn't used for game logic).
     """
     Diamonds = 0
     Clubs = 1
@@ -86,3 +85,4 @@ class Card:
 
         # If the other object is not a Card, they can't be equal, so return False
         return False
+
