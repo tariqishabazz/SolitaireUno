@@ -219,9 +219,6 @@ class SolitaireUno:
                     print("\n       Computer couldn't play and has no cards to pick up, so it passed.")
                     # Computer is forced to pass
 
-            # Optional: You might want to print the computer's hand length here for debugging/interest
-            # print(f"Computer's hand size: {len(self.computersHand)}")
-
         # --- Game End Conditions ---
         # These checks run after the main gameplay loop (while loop) finishes.
         # This means one of the players has run out of cards.
@@ -238,3 +235,4 @@ class SolitaireUno:
 if __name__ == "__main__":
     game = SolitaireUno()  # Create an instance of the SolitaireUno game (this calls __init__)
     game.start_game()  # Start the main game loop
+
